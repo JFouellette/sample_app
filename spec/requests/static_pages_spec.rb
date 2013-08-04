@@ -18,8 +18,6 @@ describe "Static pages" do
       visit '/static_pages/home'
       expect(page).not_to have_title('| Home')
     end
-    
-  end
 
   end
 
